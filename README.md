@@ -16,7 +16,7 @@ amplitude and phase — no on-chip phase shifters are used.
 This repository contains **code only**. The measurement data it consumes is
 archived separately, under CC BY 4.0:
 
-> Zenodo data record: `#TODO data DOI`
+> Zenodo data record: https://doi.org/10.5281/zenodo.21653026
 
 To run anything here, download the three archives from that record and unzip
 them into `data/` so the tree looks like:

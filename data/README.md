@@ -3,7 +3,7 @@
 The measurement data is distributed through a separate Zenodo record under
 CC BY 4.0, because it is too large to keep in version control:
 
-    Zenodo data record: #TODO data DOI
+    Zenodo data record: https://doi.org/10.5281/zenodo.21653026
 
 Download the three archives from that record and unzip them here so this
 directory contains:

@@ -1,0 +1,30 @@
+{
+  "title": "Analysis code for \"A large-scale integrated optical phased array with digital beamforming\"",
+  "description": "<p>Signal-processing and figure-generation code for a 128-element silicon photonic optical phased array receiver with fully parallelized readout, in which beamforming is performed entirely in the digital domain on per-element amplitude and phase.</p><p>Includes the Python notebooks that generated Figures 3d&ndash;f and 4a&ndash;d, the original MATLAB implementation of the same pipeline, and the hardware-control script for the transimpedance-amplifier motherboard.</p><p>The measurement data these scripts consume is archived in a companion Zenodo record (see Related identifiers).</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    { "name": "Gurses, Volkan", "affiliation": "California Institute of Technology" },
+    { "name": "Sarkar, Debjit", "affiliation": "California Institute of Technology" },
+    { "name": "Khachaturian, Aroutin", "affiliation": "HEPT Lab" },
+    { "name": "Fatemi, Reza", "affiliation": "Google Quantum AI" },
+    { "name": "Hajimiri, Ali", "affiliation": "California Institute of Technology" }
+  ],
+  "keywords": [
+    "silicon photonics",
+    "optical phased array",
+    "digital beamforming",
+    "coherent detection",
+    "integrated photonics",
+    "LiDAR"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "TODO-DATA-DOI",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ]
+}

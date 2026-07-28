@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: >-
+  Analysis code for "A large-scale integrated optical phased array
+  with digital beamforming"
+message: >-
+  If you use this software, please cite both the software and the
+  associated paper.
+type: software
+authors:
+  - given-names: Volkan
+    family-names: Gurses
+    email: gurses@caltech.edu
+    affiliation: California Institute of Technology
+    # orcid: 'https://orcid.org/#TODO'
+  - given-names: Debjit
+    family-names: Sarkar
+    affiliation: California Institute of Technology
+    # orcid: 'https://orcid.org/#TODO'
+  - given-names: Aroutin
+    family-names: Khachaturian
+    affiliation: HEPT Lab
+    # orcid: 'https://orcid.org/#TODO'
+  - given-names: Reza
+    family-names: Fatemi
+    affiliation: Google Quantum AI
+    # orcid: 'https://orcid.org/#TODO'
+  - given-names: Ali
+    family-names: Hajimiri
+    affiliation: California Institute of Technology
+    # orcid: 'https://orcid.org/#TODO'
+license: MIT
+keywords:
+  - silicon photonics
+  - optical phased array
+  - digital beamforming
+  - coherent detection
+  - integrated photonics
+  - LiDAR
+references:
+  - type: article
+    title: >-
+      A large-scale integrated optical phased array with digital
+      beamforming
+    authors:
+      - given-names: Volkan
+        family-names: Gurses
+      - given-names: Debjit
+        family-names: Sarkar
+      - given-names: Aroutin
+        family-names: Khachaturian
+      - given-names: Reza
+        family-names: Fatemi
+      - given-names: Ali
+        family-names: Hajimiri
+    journal: Scientific Reports
+    year: 2026
+    # doi: '#TODO article DOI'

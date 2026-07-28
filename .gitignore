@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.asv
+# Raw measurement data is distributed through the Zenodo data record, not git.
+data/*.csv
+data/*.zip
+data/*/
+!data/README.md

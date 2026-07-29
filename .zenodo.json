@@ -1,6 +1,6 @@
 {
   "title": "Analysis code for \"A large-scale integrated optical phased array with digital beamforming\"",
-  "description": "<p>Signal-processing and figure-generation code for a 128-element silicon photonic optical phased array receiver with fully parallelized readout, in which beamforming is performed entirely in the digital domain on per-element amplitude and phase.</p><p>Includes the Python notebooks that generated Figures 3d&ndash;f and 4a&ndash;d, the original MATLAB implementation of the same pipeline, and the hardware-control script for the transimpedance-amplifier motherboard.</p><p>The measurement data these scripts consume is archived in a companion Zenodo record (see Related identifiers).</p>",
+  "description": "<p>Signal-processing and figure-generation code for a 128-element silicon photonic optical phased array receiver with fully parallelized readout, in which beamforming is performed entirely in the digital domain on per-element amplitude and phase.</p><p>Includes the Python notebooks that generated Figures 3d&ndash;f and 4a&ndash;d, the original MATLAB implementation of the same pipeline, and the hardware-control script for the transimpedance-amplifier motherboard.</p><p>The measurement data these scripts consume is archived in the same CaltechDATA record (see Related identifiers).</p>",
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",
@@ -21,7 +21,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "10.5281/zenodo.21653026",
+      "identifier": "10.22002/bzrn9-4xa02",
       "relation": "isSupplementTo",
       "resource_type": "dataset",
       "scheme": "doi"

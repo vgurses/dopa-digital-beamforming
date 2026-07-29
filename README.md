@@ -4,7 +4,8 @@ Analysis and figure-generation code for:
 
 > V. Gurses, D. Sarkar, A. Khachaturian, R. Fatemi, A. Hajimiri,
 > "A large-scale integrated optical phased array with digital beamforming,"
-> *Scientific Reports* (2026). DOI: `#TODO article DOI`
+> *Scientific Reports* (2026), under revision.
+> Preprint (original title): https://doi.org/10.21203/rs.3.rs-9466036/v1
 
 The chip is a 128-element optical phased array receiver in which every element
 has its own balanced coherent receiver and is digitized independently, so
@@ -14,12 +15,12 @@ amplitude and phase — no on-chip phase shifters are used.
 ## Companion data record
 
 This repository contains **code only**. The measurement data it consumes is
-archived separately, under CC BY 4.0:
+deposited alongside this code in the same CaltechDATA record, under CC BY 4.0:
 
-> Zenodo data record: https://doi.org/10.5281/zenodo.21653026
+> CaltechDATA record: https://doi.org/10.22002/bzrn9-4xa02
 
-To run anything here, download the three archives from that record and unzip
-them into `data/` so the tree looks like:
+To run anything here, download the three data archives from that record and
+unzip them into `data/` so the tree looks like:
 
 ```
 data/
@@ -49,7 +50,7 @@ pipeline and are included for provenance.
 
 `matlab/dopa_cleaned.m` generates Figure 3d–f. `python/channel_snr_cmrr.py`
 is a port of it, provided so the figure can be reproduced without a MATLAB
-licence. Both print:
+license. Both print:
 
 ```
 LO leakage   median   -81.78 dBm
@@ -119,10 +120,10 @@ responsivity, the transimpedance gain and the 50 Ω load. CMRR is the difference
 between that and the measured leakage:
 
 ```
-CMRR = 10·log10[ (𝓡·P_LO·R_f)² / (Z₀·P₀) ] − P_LO,leakage
+CMRR = 10·log10[ (R·P_LO·Z_T)² / (Z₀·P₀) ] − P_LO,leakage
 ```
 
-with 𝓡 = 0.67 A/W, R_f = 5 kΩ, Z₀ = 50 Ω and P₀ = 1 mW, so both terms are in
+with R = 0.67 A/W, Z_T = 5 kΩ, Z₀ = 50 Ω and P₀ = 1 mW, so both terms are in
 dBm and the difference is in dB. All four constants are inlined at the top of
 the "Figures" section of the script.
 
@@ -177,6 +178,6 @@ Instrument Control Toolbox and a Teensy 3.6 on the serial port.
   wider span and coarser resolution bandwidth than the main channel sweep.
   No script in this repository uses them; they are archived for completeness.
 
-## Licence
+## License
 
 MIT — see `LICENSE`. The companion measurement data is licensed CC BY 4.0.

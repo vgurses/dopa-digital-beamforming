@@ -11,23 +11,18 @@ authors:
     family-names: Gurses
     email: gurses@caltech.edu
     affiliation: California Institute of Technology
-    # orcid: 'https://orcid.org/#TODO'
   - given-names: Debjit
     family-names: Sarkar
     affiliation: California Institute of Technology
-    # orcid: 'https://orcid.org/#TODO'
   - given-names: Aroutin
     family-names: Khachaturian
     affiliation: HEPT Lab
-    # orcid: 'https://orcid.org/#TODO'
   - given-names: Reza
     family-names: Fatemi
     affiliation: Google Quantum AI
-    # orcid: 'https://orcid.org/#TODO'
   - given-names: Ali
     family-names: Hajimiri
     affiliation: California Institute of Technology
-    # orcid: 'https://orcid.org/#TODO'
 license: MIT
 keywords:
   - silicon photonics
@@ -54,4 +49,4 @@ references:
         family-names: Hajimiri
     journal: Scientific Reports
     year: 2026
-    # doi: '#TODO article DOI'
+    notes: 'Under revision. Preprint: https://doi.org/10.21203/rs.3.rs-9466036/v1'

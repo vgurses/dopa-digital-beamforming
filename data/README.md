@@ -1,11 +1,12 @@
 # Data directory (intentionally empty in the code repository)
 
-The measurement data is distributed through a separate Zenodo record under
-CC BY 4.0, because it is too large to keep in version control:
+The measurement data is distributed through the CaltechDATA record that also
+holds this code, under CC BY 4.0, because it is too large to keep in version
+control:
 
-    Zenodo data record: https://doi.org/10.5281/zenodo.21653026
+    CaltechDATA record: https://doi.org/10.22002/bzrn9-4xa02
 
-Download the three archives from that record and unzip them here so this
+Download the three data archives from that record and unzip them here so this
 directory contains:
 
     data/

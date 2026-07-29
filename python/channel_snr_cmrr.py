@@ -16,7 +16,7 @@ The traces were recorded with the local oscillator coupled to the chip and NO
 SIGNAL incident on the aperture, so the peak in each trace is the residual LO
 tone at the balanced-detector output, not a received signal.
 
-Provided so the figure can be reproduced without a MATLAB licence. Verified
+Provided so the figure can be reproduced without a MATLAB license. Verified
 2026-07-28 to reproduce the MATLAB script line for line:
 
     LO leakage   median  -81.78 dBm

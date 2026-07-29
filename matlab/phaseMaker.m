@@ -216,7 +216,7 @@ for ma_idx = 1:length(ma_all)
 end
 abs_AFs=abs(AFs);
 norm_AFs=abs_AFs./max(max(abs_AFs));
-log_AFs=10.*log10(norm_AFs);
+log_AFs=20.*log10(norm_AFs); % power decibels: -3 dB marks half power
 fovs=[];
 bws=[];
 for ma_idx = 1:length(ma_all)
@@ -239,7 +239,7 @@ for ma_idx = 1:length(ma_all)
     bws=[bws,bw];
 end
 xlim([-4,4])
-ylim([-10,0])
+ylim([-20,0])
 mean(fovs)
 mean(bws)
 
